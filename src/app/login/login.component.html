@@ -1,0 +1,42 @@
+
+
+<div class="container centered-form position">
+	<div class="panel ">
+		<div class=" card-header ">
+			<h1>lOGin</h1>
+			<div class=""></div>
+		</div>
+
+		<div class=" card-body">
+			<form  class="form-group" (submit)="login($event)" >
+				<div class="form-horizontal">
+					<div class="form-group row">
+						<label for="" class="text-right col-sm-3 text-info">User </label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="" class="text-right col-sm-3 text-info">Password </label>
+						<div class="col-sm-9">
+							<input type="password" class="form-control">
+						</div>
+					</div>					
+				</div>
+				<div class="row">
+					<div class="col-sm-8 text-right ">
+						<input type="submit" class="btn btn-outline-success btn-md " style="width: 100px" value="Login">
+					</div>
+					<div class="col-sm-4 text-right ">
+						<div class="form-group"></div>
+						<a class="text-gray-dark "
+						 routerLink="/resgister" 
+						 routerLinkActive="active" > Register</a>
+					</div>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+</div>
+
